@@ -1,0 +1,874 @@
+﻿[
+  {
+    "id": "1",
+    "name": "",
+    "description": "",
+    "locale": "be_nl",
+    "sections": [
+      {
+        "id": "1",
+        "name": "textfieldconfirm",
+        "description": "textfieldconfirm",
+        "bundles": [
+          {
+            "id": "1",
+            "name": "textfieldconfirm bundle",
+            "description": "Contains all the fields required for the textfieldconfirm data.",
+            "multiples": 1,
+            "fields": [
+              {
+                "id": 1,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 1,
+                "name": "input",
+                "description": "input",
+                "label": "lbl_voornaam",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' && /(?!^\\s+$)^.*$/m.test(val) || 'This field is required'"
+                ],
+                "options": [
+                ],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+        
+                "features": {
+                  "hint": "Typ hier uw voornaam.",
+                  "clearable": true
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              },
+              {
+                "id": 1,
+                "type": {
+                  "name": "textfieldconfirm",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 1,
+                "name": "textfieldconfirm",
+                "description": "textfieldconfirm",
+                "label": "lbl_Please confirm the field",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                ],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+        
+                "features": {
+                  "hint": "Confirm deze filde met zelfde informatie die u ingevuld hebt in bovenste field.",
+                  "clearable": true
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "name": "radiobutton and checkbox",
+        "description": "radiobutton and checkbox",
+        "bundles": [
+          {
+            "id": "1",
+            "name": "radiobutton and checkbox bundle",
+            "description": "Contains all the fields required for the radiobutton data.",
+            "multiples": 1,
+            "fields": [
+              {
+                "id": 1,
+                "type": {
+                  "name": "groupoption",
+                  "description": "",
+                  "subType": "checkbox"
+                },
+                "formFieldId": 1,
+                "name": "",
+                "description": "",
+                "label": "",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                {
+                  "value": "check",
+                  "label": "checkbox1"
+                },
+                {
+                  "value": "check2",
+                  "label": "checkbox2"
+                },
+                {
+                  "value": "check3",
+                  "label": "checkbox3"
+                },
+                {
+                  "value": "check4",
+                  "label": "checkbox4"
+                },
+                {
+                  "value": "check4",
+                  "label": "checkbox4"
+                },
+                {
+                  "value": "check4",
+                  "label": "checkbox4"
+                }
+                ],
+                "design": {
+                },
+        
+                "features": {
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              },
+              {
+                "id": 2,
+                "type": {
+                  "name": "groupoption",
+                  "description": "",
+                  "subType": "radio"
+                },
+                "formFieldId": 2,
+                "name": "radio",
+                "description": "radio",
+                "label": "lbl_radio",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                {
+                  "value": "opt1",
+                  "label": "option1"
+                },
+                {
+                  "value": "opt2",
+                  "label": "option2"
+                },
+                {
+                  "value": "opt3",
+                  "label": "option3"
+                },
+                {
+                  "value": "opt4",
+                  "label": "option4"
+                },
+                {
+                  "value": "opt5",
+                  "label": "option5"
+                },
+                {
+                  "value": "opt6",
+                  "label": "option6"
+                }
+                ],
+                "design": {
+                },
+        
+                "features": {
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              },
+              {
+                "id": 3,
+                "type": {
+                  "name": "groupoption",
+                  "description": "",
+                  "subType": "toggle"
+                },
+                "formFieldId": 3,
+                "name": "toggle",
+                "description": "toggle",
+                "label": "lbl_toggle",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                  {
+                    "value": "tog1",
+                    "label": "toggle1"
+                  },
+                  {
+                    "value": "tog2",
+                    "label": "toggle2"
+                  },
+                  {
+                    "value": "tog3",
+                    "label": "toggle3"
+                  }
+                ],
+                "design": {
+                },
+        
+                "features": {
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              },
+              {
+                "id": 4,
+                "type": {
+                  "name": "slider",
+                  "description": "",
+                  "subType": ""
+                },
+                "formFieldId": 4,
+                "name": "slider",
+                "description": "slider",
+                "label": "",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                ],
+                "design": {
+                  "Color":"teal !important",
+                  "track-size": "8px",
+                  "track-color": "red",
+                  "selection-color": "blue"
+                },
+
+                "features": {
+                },
+        
+                "custom": {
+                },
+        
+                "mask": {
+                  "mask": ""
+              },
+                "value": ""
+              },
+              {
+                "id": 5,
+                "type": {
+                  "name": "paragraphfield",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 5,
+                "name": "description",
+                "description": "description",
+                "label": "lbl_description",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                ],
+                "options": [
+                ],
+                "design": {                  
+                },
+                "features": "",
+                "mask": "",
+                "value":"Ik ga akkoord met het ontvangen van <b>actuele statusinformatie</b> omtrent mijn registratie door Service Bureau Jansen. De <a href=\"https://rms2public.blob.core.windows.net/sanimed/SBJ_PrivacyNotice_1.2_NL.pdf\" target=\"_blank\" style=\"font-size:20px\"> privacyverklaring </a> van Service Bureau Jansen is hierbij van kracht"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "name": "NAW",
+        "description": "Naam, addres en woonplaats gegevens.",
+        "bundles": [
+          {
+            "id": "2",
+            "name": "NAWBundle",
+            "description": "Contains all the fields required for the NAW data.",
+            "multiples": 1,
+            "fields": [
+              {
+                "id": 1,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 1,
+                "name": "Name",
+                "description": "email",
+                "label": "lbl_email",
+                "tooltip": "tip_Put in your name here",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => /^(([^<>()\\[\\]\\\\.,;:\\s@\"]+(\\.[^<>()\\[\\]\\\\.,;:\\s@\"]+)*)|(\".+\"))@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}])|(([a-zA-Z\\-0-9]+\\.)+[a-zA-Z]{2,}))$/.test(val) || 'This field needs to be an email'"
+                ],
+                "options": [],
+                "design": {
+                  "outlined": true,
+                  "bg-color": "silver",
+                  "color": "#ddd !important"
+                },
+
+                "features": {
+                  "hint": "test@gmail.com",
+                  "clearable": true
+                },
+
+                "mask": "",
+                "value": "email"
+              },
+              {
+                "id": 2,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 2,
+                "name": "Name",
+                "description": "First name",
+                "label": "lbl_Voornaam",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": "",
+                
+                "mask": "",
+
+                "value": ""
+              },
+              {
+                "id": 3,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 3,
+                "name": "phone",
+                "description": "telefoonnummer",
+                "label": "lbl_telefoonnummer",
+                "tooltip": "tip_Put in your name here",
+                "destination": "registration",
+                "linkId": null,
+                
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "",
+                  "color": "#ddd"
+                },
+
+                "features": {
+                  "hint": "(06) - 1234 - 4321",
+                  "clearable": true
+                },
+
+                "mask": {
+                  "mask": ""
+                },
+
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+
+                "value": "phone"
+              },
+              {
+                "id": 4,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "password"
+                },
+
+                "formFieldId": 4,
+                "name": "Name",
+                "description": "password",
+                "label": "lbl_Password",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": "",
+                
+                "mask": "",
+
+                "value": ""
+              },
+              {
+                "id": 5,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "number"
+                },
+
+                "formFieldId": 5,
+                "name": "Name",
+                "description": "nummer",
+                "label": "lbl_Nummer",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": "",
+                
+                "mask": "",
+
+                "value": ""
+              },
+              {
+                "id": 6,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 6,
+                "name": "Name",
+                "description": "time",
+                "label": "lbl_time",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "'time'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": {
+                  "hint": "12:00"
+                },
+                
+                "mask": {
+                  "mask": "##:##"
+
+                },
+                "value": ""
+              },
+              {
+                "id": 7,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 7,
+                "name": "Name",
+                "description": "date",
+                "label": "lbl_date",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "'date'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": {
+                  "hint": "1000/10/10"
+                },
+                
+                "mask": {
+                  "mask": "####/##/##"
+                },
+
+                "value": ""
+              },
+              {
+                "id": 8,
+                "type": {
+                  "name": "fileuploader",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 8,
+                "name": "Name",
+                "description": "file",
+                "label": "lbl_selecteer een file",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "square": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": {
+                  "clearable": true
+                },
+                "custom": {
+                  "accept": ".jpg, .png, .pdf"
+                },
+                
+                "mask": "",
+
+                "value": ""
+              },
+              {
+                "id": 9,
+                "type": {
+                  "name": "datepicker",
+                  "description": "",
+                  "subType": "text"
+                },
+
+                "formFieldId": 9,
+                "name": "Name",
+                "description": "datepicker",
+                "label": "lbl_selecteer een datum",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "'date'"
+                ],
+
+                "options": [],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "square": true,
+                  "stack-label": true,
+                  "bg-color": "bisque",
+                  "Color": "white !important"
+                },
+
+                "features": {
+                  "hint": "1000/01/01",
+                  "clearable": true
+                },
+                
+                "mask": {
+                  "mask": "",
+                  "fill-mask": true
+                },
+
+                "value": ""
+              },
+      
+              {
+                "id": 10,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 10,
+                "name": "Name",
+                "description": "Voornaam",
+                "label": "lbl_Voornaam",
+                "tooltip": "tip_Put in your name here",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'",
+                  "val => val.length <= 3 || 'Please use maximum 3 characters'"
+                ],
+                "options": [],
+                "design": {
+                  "outlined ": true
+                },
+
+                "features": {
+                  "hint": "test",
+                  "clearable": true
+                },
+
+                "mask": {
+                  "mask":""
+              },
+                "value": ""
+              },
+              {
+                "id": 11,
+                "type": {
+                  "name": "input",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 11,
+                "name": "Name",
+                "description": "achternaam",
+                "label": "lbl_achternaam",
+                "tooltip": "tip_Put in your name here",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'",
+                  "val => val.length <= 5 || 'Please use maximum 5 characters'"
+                ],
+                "options": [],
+                "design": {
+                  "outlined ": true
+                },
+
+                "features": {
+                  "hint": "test",
+                  "clearable": true
+                },
+
+                "mask": {
+                  "mask":""
+              },
+                "value": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "name": "Product",
+        "description": "product, gift gegevens.",
+        "bundles": [
+          {
+            "id": "1",
+            "name": "PRODUCTBundle",
+            "description": "Contains all the fields required for the PRODUCT data.",
+            "multiples": 1,
+            "fields": [
+              {
+                "id": 1,
+                "type": {
+                  "name": "dropdown",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 1,
+                "name": "product",
+                "description": "Product",
+                "label": "lbl_Product",
+                "tooltip": "tip_Selecteer een product",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+                "options": [
+                  {
+                    "label": "Facebook",
+                    "value": "facebook"
+                  },
+                  {
+                    "label": "google",
+                    "value": "google"
+                  },
+                  {
+                    "label": "twitter",
+                    "value": "twitter"
+                  }
+                ],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "teal !important"
+                },
+
+                "features": {
+                  "hint": "Iphone",
+                  "clearable": true
+                },
+
+                "mask": "",
+                "value": "product"
+              },
+
+              {
+                "id": 2,
+                "type": {
+                  "name": "dropdown",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 2,
+                "name": "product",
+                "description": "Product",
+                "label": "lbl_Product",
+                "tooltip": "tip_Selecteer een product",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+                "options": [
+                  {
+                    "label": "iphone",
+                    "value": "iphone"
+                  },
+                  {
+                    "label": "laptop",
+                    "value": "laptop"
+                  },
+                  {
+                    "label": "playstation",
+                    "value": "playstation"
+                  }
+                ],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "teal !important"
+                },
+
+                "features": {
+                  "hint": "Iphone",
+                  "clearable": true
+                },
+
+                "custom":{
+                  "transition-show":"flip-up",
+                  "transition-hide":"flip-down"
+                },
+
+                "mask": "",
+                "value": "product"
+              },
+
+              {
+                "id": 3,
+                "type": {
+                  "name": "dropdown",
+                  "description": "",
+                  "subType": "text"
+                },
+                "formFieldId": 3,
+                "name": "Name",
+                "description": "gift",
+                "label": "lbl_gift",
+                "tooltip": "tip_Selecteer een cadeau",
+                "destination": "registration",
+                "linkId": null,
+                "rules": [
+                  "val => val != null && val != '' || 'This field is required'"
+                ],
+                "options": [
+                  {
+                    "label": "cadeau",
+                    "value": "cadeau"
+                  },
+                  {
+                    "label": "chash back",
+                    "value": "chash back"
+                  },
+                  {
+                    "label": "korting",
+                    "value": "korting"
+                  }
+                ],
+                "design": {
+                  "rounded": true,
+                  "filled": true,
+                  "bg-color": "bisque",
+                  "Color": "teal !important"
+                },
+
+                "features": {
+                  "hint": "Iphone",
+                  "clearable": true
+                },
+                "custom":{
+                  "transition-show":"flip-up",
+                  "transition-hide":"flip-down",
+                  "behavior":"dialog"
+                },
+
+                "mask": "",
+                "value": "gift"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
